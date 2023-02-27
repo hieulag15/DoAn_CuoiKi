@@ -155,10 +155,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WinFormsApp1.Properties.Resources.digital_banking_platform_making_1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 165);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 75);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(623, 278);
+            this.pictureBox1.Size = new System.Drawing.Size(623, 367);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -174,6 +174,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.MaximizeBox = false;
+            this.MdiChildrenMinimizedAnchorBottom = false;
             this.MinimizeBox = false;
             this.Name = "FrmQLNH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
