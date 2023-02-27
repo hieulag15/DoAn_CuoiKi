@@ -174,6 +174,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmQLNH";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ngân Hàng";
             this.Load += new System.EventHandler(this.FrmQLNH_Load);
             this.panel1.ResumeLayout(false);
