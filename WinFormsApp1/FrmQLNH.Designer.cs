@@ -38,14 +38,17 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button1.BackColor = System.Drawing.Color.SkyBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(36, 49);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -57,7 +60,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button2.BackColor = System.Drawing.Color.SkyBlue;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(36, 95);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -69,7 +72,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button3.BackColor = System.Drawing.Color.SkyBlue;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(36, 140);
             this.button3.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -82,7 +85,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button4.BackColor = System.Drawing.Color.SkyBlue;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(36, 187);
             this.button4.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -94,7 +97,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button5.BackColor = System.Drawing.Color.SkyBlue;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(36, 234);
             this.button5.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -121,7 +124,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.button6.BackColor = System.Drawing.Color.SkyBlue;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(36, 281);
             this.button6.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
@@ -155,20 +158,40 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WinFormsApp1.Properties.Resources.digital_banking_platform_making_1;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 75);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 68);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(623, 367);
+            this.pictureBox1.Size = new System.Drawing.Size(623, 375);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.CadetBlue;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(623, 65);
+            this.panel3.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(135, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(302, 25);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mang niềm vui đến cho mọi người";
             // 
             // FrmQLNH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(919, 443);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -184,6 +207,8 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -200,5 +225,7 @@
         private Panel panel2;
         private Label label1;
         private PictureBox pictureBox1;
+        private Panel panel3;
+        private Label label2;
     }
 }
