@@ -154,7 +154,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WinFormsApp1.Properties.Resources.chuyen_doi_so_ngan_hang_3;
+            this.pictureBox1.Image = global::WinFormsApp1.Properties.Resources.digital_banking_platform_making_1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 165);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.pictureBox1.Name = "pictureBox1";
@@ -168,7 +168,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.ClientSize = new System.Drawing.Size(910, 447);
+            this.ClientSize = new System.Drawing.Size(919, 443);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
