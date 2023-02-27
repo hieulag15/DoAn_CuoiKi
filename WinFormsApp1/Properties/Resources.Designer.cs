@@ -74,6 +74,16 @@ namespace WinFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chuyen_doi_so_ngan_hang_3 {
+            get {
+                object obj = ResourceManager.GetObject("chuyen-doi-so-ngan-hang-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap digital_banking_platform_making_1 {
             get {
                 object obj = ResourceManager.GetObject("digital-banking-platform-making-1", resourceCulture);
